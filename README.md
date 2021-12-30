@@ -1,56 +1,20 @@
-## Variables and Printing
 
-In this section we will learn about python variables and how to display them using the print function.
+### Taking input in Python
+[from](https://www.geeksforgeeks.org/taking-input-in-python/)
+Developers often have a need to interact with users, either to get data or to provide some sort of result. Most programs today use a dialog box as a way of asking the user to provide some type of input. While Python provides us with two inbuilt functions to read the input from the keyboard.
 
-### Getting Started
-The details of what to type into the console are in the respective DoNow and Lab files. If you want to execute them in the main program the instructions are below.
+- **input ( prompt )**
+- **raw_input ( prompt )**
 
-In short expressions on the command line execute as you think they would 
-
-```python
-print(2*3*5)
-```
-prints 30
-
-And variables are very similar to how they were in Snap! They are addresses that we can put values into.
+**input ( )** : This function first takes the input from the user and then evaluates the expression, which means Python automatically identifies whether user entered a string or a number or list. If the input provided is not correct then either syntax error or exception is raised by python. For example –
 
 
 ```python
-city = "San Francisco"
-print(city)
-```
-Prints San Francisco
-
-### Running through main.py
-
-The DoNow page shows various expressions that you can type into the console. Lines that are indented in the DoNow function will execute when the main program is run. For instance the following function will run in main:
-
-```python
-def theNow():
-  print(2*3*5)
+print('Enter your name:')
+x = input()
+print('Hello, ' + x)
 ```
 
-because in the main we have
-
-```python
-from DoNow import theNow
-
-theNow()
-```
-
-If we don't want to execute the DoNow we can comment it out
-
-```python
-from DoNow import theNow
-
-#theNow()
-```
-
-Likewise parts from the lab can be imported and executed
-
-```python
-from Lab import part1, challenge
-
-part1()
-challenge()
-```
+### Video Resources
+[Numeric Data Types](https://www.youtube.com/watch?v=5yhn0MFLcu8&feature=youtu.be)
+[Numeric Data Types Demo](https://www.youtube.com/watch?v=T1j2tfZK7OI&feature=youtu.be)
