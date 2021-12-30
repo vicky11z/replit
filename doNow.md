@@ -1,31 +1,14 @@
-# Do Now 1.04
+[Back to the "Read Me"](#README.md)
+# Do Now
 
-## 1. In your Console
-a.) Type and run the following code in the console:
-> Reminder: The console is the black screen to the right of this screen.
+## Open this project Unit 1.05 debugging
 
+## Predict the Following
+```python
+favorite_number_str = input("What is your favorite number: ")
+birth_month_str = input("What month where you born in: ")
+lucky_number = int(favorite_number_str) + int(birth_month_str)
+print("Your lucky number is " + lucky_number)
 ```
-a = input("What is your name? ")
-# a = "cats and dogs"
-# meow
-print("Hello there, " + a)
-```
 
-b.) Answer the following questions in this file:
-
-1. Read through the code and write down what you expect the printed results to be?
-
-
-2. Run the code and write down the actual printed result?
-
-
-3. Briefly describe what the # does?
-
-
-4. Briefly describe what input does?
-
-
-## 2. Convert to Python
-Convert the following SNAP code to Python. Type the python code in the `main.py` file.
-
-![](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/units/1_unit/04_lesson/snap_input.png)
+Now you can copy this to the main py and check it out. Type below: What happens? What were you surprised about? What did you learn?
