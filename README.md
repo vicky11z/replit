@@ -1,36 +1,70 @@
-# Lesson 2.06: Game Loop
 
-## Learning Objectives
+# Project 1: Mad Libs
 
-Students will be able to...
+Using Python, You will use variables, input, and printing to create a Mad Lib. You will also practice designing a project by planning out your Mad Lib before implementing it. Part of the project is to use your creativity to design your own unique story.
 
-* Define and identify: **while loop**.
-* Use a while loop to simulate game play.
+## Overview
 
-## Materials/Preparation
+Mad Libs are a fun way to tell a story. The story is pre-written except for a few missing words. The story is hidden from the user. The user is asked a series of questions in order to fill in the missing words before seeing the story. Then the story is read off with the user's words mixed in!
+
+## Materials
+ We have the following files.
 
  | **Duration**   | **Description**    |
 | ---------- | -------------- |
-| [Do Now](#DoNow.md) |  Our usual warm up.         |
+| [Design.md](#Design.md) |  The design document you create on your first day.         |
 |  Read Me | This document |
-| [Class Norms](#ClassNorms.md) | Our class norms          |
-| [Lab](#lab.md) | The lab for today         |
-| [main](#main.py) | The file that you should edit for the lab        |
-
-* [Associated Readings 2.7](https://tealsk12.github.io/2nd-semester-introduction-to-computer-science/readings.md#associatedreadings/2.7)
-
-## meanwhile ...
-
-The main difference between an if and a while is that if executes once if a condition is true, and a while keeps executing as long as something is true. The something that remains true is called the [invariant](https://en.wikipedia.org/wiki/Loop_invariant)
-
-It follows that each time you go through the loop that there must be something that might change the invariant, otherwise the loop will go on forever.
-
-To help you and future programmers it is helpful to create an invariant that is understandable and if it *has* to be complicated at least explain why.
+| [Main.py](#main.py) | The file you edit to write your program         |
 
 
-#### Discussion
 
-* Ask: how might while loops be useful?
-* Ask students to consider how they could write a loop using user input.
-* What if you wanted the loop to stop when the user inputs "quit"?
+## Details
+
+### Behavior
+The program will print out the title of the Mad Libs story, as well as a short explanation of game play
+
+> A Day in NYC: a Mad Lib.
+>  Welcome! You are about to play a fantastic word game.
+>  I will ask you for nouns, verbs, adjectives, proper nouns and adverbs.
+>  Using those words I will create an unexpected story for you!
+
+The program should then prompt the user to enter in nouns, verbs, adjectives, proper nouns, and adverbs
+
+> Day in New York City: A Mad Lib
+>  Instructions. The program will prompt for a type of word to enter. After all words are entered the program will print a story
+> Enter a proper noun: Ariana Grande
+>  Enter a place: The Standard
+>  Enter another place: Duane Reade
+>  Enter an adverb: quickly
+>  Enter a noun: donut
+>  Enter an adjective: slimy
+>  Enter an adverb: foolishly
+>  Enter a verb: prance
+>  Enter a place: Times Square
+>  Enter an adjective: beautiful
+>  It was a beautiful day in New York City Our hero Ariana Grande was on a walk from the Standard Duane Reade.Ariana rather than quickly because he/she lived in New York for a few months. Suddenly a slimy donut appeared out of nowhere!!!
+
+After all the words have been entered. The program will print out the story. You will need to create a story of your own choosing. Keep it clean and fun. Here is an example of a day in New York City.
+
+> A Day in NYC: It was a beautiful day in New York City. Our hero Ariana Grande was on a walk from the Standard to Duane Reade. Ariana Grande was walking rather quickly because he/she had lived in New York for a few months. Suddenly, a slimy donut appeared out of nowhere!!! Ariana Grande decided to prance foolishly instead of dealing with the situation. Thrown off from Duane Reade, Ariana Grande decides to go to Times Square instead. What a beautiful day in New York.
+
+### Implementation Details
+Plan out your story on [Design.md](#Design.md), before you start implementing the program.
+
+
+1. Create your story
+1. Select the missing words
+1. Determine each words part of speech
+1. Create introduction
+1. Create questions
+1. Divide story into print statements
+
+
+As mentioned above the program must request words from the user. The following must be included in the program:
+
+### 10 different words inputted
+
+Variable names should correspond to the part of speech requested and part of the story they belong to (e.g. noun1, verb2, etc.)
+
+### You may only use 3 print statements to tell your story
 
