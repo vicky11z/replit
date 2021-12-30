@@ -1,29 +1,30 @@
-""""PART 3
-The four fours challenge
-Using four 4's and any operations, try to write equations that have the numbers from 0 to 4 as the answer. You should use Python's arithmetic operations:
+'''
+Part 1 - Creating the Genie
 
-+ addition
-- subtraction or negation
-* multiplication
-/ division
-( ) parentheses for grouping
-** power
-You may also use 44 or 4.4, which count as two fours, or .4, which counts as one four. For example, one solution for zero is:
-"""
-def part3():  
-  print("Zero is", 44-44)
-  # Your code here
-  # When you are ready to run, go to the main.py file
+When you want to test your code, 
+go to the main.py file and follow the instructions to test part 1.
+'''
+def part1():
+  # a. Have the genie introduce itself.
 
-"""PART 4 - BONUS
-Print the output below, but only using one line of code. Feel free to use online resources.
+  # b. Have the program ask for three separate wishes.
 
-Wow!
-This is on a new line!
-Bonus 2
-Can you find four fours for 5 to 10?
-"""
-def part4():
-  # Your code here
-  # When you are ready to run, go to the main.py file
-  return
+  # c. Print all the wishes together.
+
+  
+
+
+'''
+Part 2 - Confusing the Genie
+
+First, copy and paste your code from part1() under part2()
+
+Then, edit your code to have him print your first wish as your last wish, and your second wish as your first wish, and your third wish as your second wish.
+
+When you want to test your code, 
+go to the main.py file and follow the instructions to test part 2.
+'''
+def part2():
+  # Do part2 here.
+
+  
